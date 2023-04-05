@@ -8,11 +8,12 @@
     "test:ci": "jest --ci"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^13.2.5-canary.30",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@svgr/webpack": "^7.0.0",
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/react": "14.0.0",
     "@testing-library/user-event": "14.4.3",
